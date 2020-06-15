@@ -52,7 +52,7 @@ logo = """
 \033[1;91m████╗░████║██║██╔════╝██║░░██║██║
 \033[1;91m██╔████╔██║██║╚█████╗░███████║██║
 \033[1;91m██║╚██╔╝██║██║░╚═══██╗██╔══██║██║
-\033[1;91m██║░╚═╝░██║██║████a█╔╝██║░░██║██║
+\033[1;91m██║░╚═╝░██║██║██████╔╝██║░░██║██║
 \033[1;91m╚═╝░░░░░╚═╝╚═╝╚═════╝░╚═╝░░╚═╝╚═╝
 \033[1;92m║══▒═✺═▒═✺═▒═══¤═¤═¤════════════¤═══║
 \033[1;96m║✯ Creator ✯ JAM SHAHRUKH       ║    
@@ -405,7 +405,7 @@ def pilih_super():
 						                               print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass5 + '\n'							
 						                               oks.append(user+pass5)	
                                                                        else:
-			                                                       if 'www.facebook.com' in q["error_msg"]			                                                       if 'www.facebook.com' in q["error_msg"]:
+			                                                       if 'www.facebook.com' in q["error_msg"]:
 				                                                   print '\x1b[1;94m[ ❥ ] \x1b[1;94mMishi-Checkpoint'
 				                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mName \x1b[1;94m    ✯ \x1b[1;95m' + b['name']
 				                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
